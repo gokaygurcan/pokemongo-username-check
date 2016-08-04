@@ -1,0 +1,31 @@
+{
+  "name": "pokemongo-username-check",
+  "version": "0.1.0",
+  "description": "Check if your username is valid and/or in use.",
+  "homepage": "https://github.com/gokaygurcan/pokemongo-username-check",
+  "authors": [
+    {
+      "name": "Gökay Gürcan",
+      "email": "info@gokaygurcan.com",
+      "url": "https://www.gokaygurcan.com/"
+    }
+  ],
+  "copyright": "2016",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokaygurcan/pokemongo-username-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gokaygurcan/pokemongo-username-check/issues"
+  },
+  "keywords": [
+    "pokemon",
+    "pokemongo",
+    "username",
+    "check"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
