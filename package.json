@@ -16,6 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/gokaygurcan/pokemongo-username-check.git"
   },
+  "bin": {
+    "pokemongo-username": "index.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "bugs": {
     "url": "https://github.com/gokaygurcan/pokemongo-username-check/issues"
   },
@@ -25,7 +31,19 @@
     "username",
     "check"
   ],
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  }
 }
